@@ -6,7 +6,7 @@ body{
     background: linear-gradient(to right, #625a72, #3a4450, #22252f);
 }
 
-h1, th, td{
+h1, th, td, p{
     color: white;
 }
 
