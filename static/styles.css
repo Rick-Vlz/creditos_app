@@ -1,0 +1,49 @@
+*{
+    font-family: 'Serif', sans-serif;
+    padding: 0.4rem;
+}
+body{
+    background: linear-gradient(to right, #625a72, #3a4450, #22252f);
+}
+
+h1, th, td{
+    color: white;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    color: white;
+    background-color: transparent;
+    border: 1px white solid;
+}
+
+input::placeholder{
+    color: rgb(185, 185, 185);
+    opacity: 2;
+}
+
+button{
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: transparent;
+    border: 1px white solid;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover{
+    background-color: grey;
+}
+
+#grafico_responsivo{
+    position: relative;
+    max-width: 800px;
+    max-height: 800px;
+    margin: auto;
+}

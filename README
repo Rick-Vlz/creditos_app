@@ -1,0 +1,31 @@
+**Delta Data Consulting** – Examen Práctico  
+Aplicación web en Python‑Flask con SQLite para gestionar créditos y visualizar distribución.  
+
+## Descripción
+- Sistema CRUD de creditos.  
+- Interfaz web sencilla con formulario y tabla.  
+- Gráfica tipo *doughnut* que muestra el monto total por cliente.
+
+## Requisitos
+- Python 3.8+  
+- (Opcional) Entorno virtual (`venv`) 
+
+## Ejecución
+
+1. **Clonar este repositorio**  
+   git clone https://github.com/Rick-Vlz/creditos_app.git
+2. **Situarse en la ruta**
+   cd creditos_app
+    `Crear entorno virtual (Opcional)`:[
+        python -m venv venv
+        venv\Scripts\activate      # Windows
+        source venv/bin/activate   # macOS/Linux
+    ]
+3. **Instalar dependencias**
+   pip install -r requirements.txt
+4. **Ejecutar credito.py**
+   python credito.py
+5. **Abrir navegador**
+   http://127.0.0.1:5000/
+
+(Si nota la grafica sin colores solo recargue la pagina, una vez haya empezado a ingresar datos)
